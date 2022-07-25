@@ -1,0 +1,161 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar_head{
+    position: fixed;
+    display: flex; 
+    background-color: #282835;
+    top:0;
+    left: 0;
+}
+
+.navbar_content {
+    line-height: 70px;
+    height: 100%;
+}
+.content li {
+    white-space: nowrap;
+    font-size: 13px;
+}
+
+.content li a {
+    height: 100%;
+    text-decoration: none;
+    white-space: nowrap;
+    color: black;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.content li button {
+    background-color: white;
+    width: 100%;
+    border: none;
+    color: black;
+    font-size: 12px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.content li span {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h7 {
+    padding-left: 5px;
+}
+
+.video{
+    margin-top: 40px;
+}
+
+
+.navbar_content {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    display: block;
+    width: 30vw;
+    background: white;
+    line-height: 50px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.logo-name {
+    font-size: 20px;
+    color: black;
+
+}
+
+.logo i {
+    font-size: 25px;
+    color: black;
+}
+
+.navbar .bx-menu {
+    font-size: 25px;
+    color: black;
+    margin-bottom: auto;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.content {
+    display: block;
+    margin-top: 20px;
+    padding-left: 5px;
+}
+
+
+
+.sub_menu {
+    position: relative;
+    top: 0;
+    box-shadow: none;
+    display: none;
+    padding-left: 5px;
+}
+
+.sub_menu li {
+    border-bottom: none;
+    text-transform: uppercase;
+}
+
+nav li li:hover {
+    background-color: #F7F7F7;
+    border-left: 5px solid blue;
+}
+nav li li button:hover {
+    background-color: #F7F7F7;
+}
+.lesson_name{
+    color: black;
+    margin-left: 10px;
+}
+.lesson_name h7{
+    font-weight: bold;
+}
+.lesson_name h8{
+    padding-left: 5px;
+}
+.next_lesson a{
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+}
+.next_lesson button{
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+}
+
+
+
+.navbar .navbar_content ul li .sub_lesson.active + .sub_menu {
+    display: block;
+
+}
+.navbar .navbar_content ul li .sub_lesson.active .htmlcss_arrow {
+    transform: rotate(180deg);
+}
+
+
+
+
+

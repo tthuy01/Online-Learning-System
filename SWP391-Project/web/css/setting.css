@@ -1,0 +1,35 @@
+#navbarSupportedContent form input, #navbarSupportedContent form button{
+    display: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.setting-list-container {
+    margin-top: 110px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.sider form div{
+    margin-top: 2%;
+}
+
+input.form-control:placeholder-shown {
+    text-overflow: ellipsis;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.filter .sub-filter .content-filter table tr td {
+    width: 100%;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.content table {
+    text-align: center;
+}

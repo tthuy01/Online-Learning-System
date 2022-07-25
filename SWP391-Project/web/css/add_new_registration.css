@@ -1,0 +1,10 @@
+.clear {
+    clear: both;
+}
+
+.registration-container {
+    margin-top: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 86vh;
+}

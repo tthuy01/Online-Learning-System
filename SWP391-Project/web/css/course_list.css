@@ -1,0 +1,137 @@
+/* top banner */
+.top-banner {
+    margin-top: 74px;
+    background-color: #0056d2;
+    color: white;
+    height: 150px;
+    padding-left: 50px;
+}
+
+.top-banner a {
+    text-decoration: underline;
+    color: white;
+}
+
+.top-banner a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* top banner */
+
+/* filter section */
+.main-filter{
+    overflow: scroll;
+    height: 70px;
+}
+
+.filter-section select {
+    min-width: 150px;
+    width: 210px;
+    /*padding: 10px 5px;*/
+    border-radius: 4px;
+}
+
+#top {
+    border-bottom: 1px solid #0056d2;
+    padding-bottom: 10px;
+    background-color: #f5f7f8;
+}
+
+.search-filter {
+    padding: 25px 50px;
+}
+
+#clear{
+    cursor: pointer;
+    color: #0056d2;
+}
+
+#clear:hover{
+    text-decoration: underline;
+}
+
+.filter-clear{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0 8px;
+    height: 30px;
+    margin-right: 20px; 
+    color: #373A3C;
+}
+/* filter section */
+
+/* course */
+#course {
+    padding: 25px 50px;
+}
+
+.course-detail {
+    box-shadow: rgba(31, 31, 31, 0.12) 0px 1px 6px, rgba(31, 31, 31, 0.12) 0px 1px 4px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.course-title {
+    margin-left: 10px;
+    min-height: 300px;
+}
+
+.course-detail img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.course-title .div1 {
+    width: fit-content;
+    color: #0062E4; 
+    font-family: "Source Sans Pro",Arial,sans-serif;
+    font-size: 22px;
+}
+.course-title .div2 {
+    width: fit-content;
+    color: #666666; 
+    font-family: "Source Sans Pro",Arial,sans-serif;
+    font-size: 14px;
+    margin-bottom: 70px;
+}
+
+.course-title h6 {
+    color: #666666;
+    font-size: .975rem;
+    line-height: 1.25rem;
+    font-family: Source Sans Pro,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.my_span {
+    font-size: 12px;
+    float: right;
+    font-weight: 600;
+    font-family: "Source Sans Pro",Arial,sans-serif;
+    width: fit-content;
+    text-decoration: none;
+    color: black;
+    background-color: #FFE057;
+    border-radius: 10px;
+    padding: 2px 15px;
+    vertical-align: middle;
+}
+
+.course-content > div{
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.4s all;
+    transform: translateY(10px);
+    /*transform: rotate(0deg);*/
+    /*transform: rotate(0deg);*/
+
+}
+
+.course-content > div:hover{
+    opacity: 0.7;
+    /*transform: translateX(50px);*/
+    /*transform: rotate(360deg);*/
+    transform: translateX(0px);
+}

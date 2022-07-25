@@ -1,0 +1,32 @@
+.registration-detail-content {
+    margin-top: 3%;
+}
+
+.title-registration {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.content-registration {
+    /*width: 80%;*/
+    margin-top: 2%;
+    display: flex;
+}
+
+.img-content {
+    /*float: left;*/
+    flex-grow: 2;
+}
+
+.text-content {
+    /*float: left;*/
+    margin-right: 3%;
+    flex-grow: 1;
+    background-color: rgba(0, 0, 255, 0.1);
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.clear {
+    clear: both;
+}

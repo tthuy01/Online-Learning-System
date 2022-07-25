@@ -1,0 +1,9 @@
+.setting-detail-container {
+    margin-top: 110px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+table tr td input {
+    width: 100%;
+}

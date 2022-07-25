@@ -1,0 +1,140 @@
+
+.ban_text {
+    width: fit-content;
+    color: #1f1f1f;
+    font-weight: 600;
+    font-size: 75px;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+}
+.my_text {
+    color: #1f1f1f;
+    font-weight: 400;
+    font-size: 1.25rem;
+    font-family: "Source Sans Pro",Arial,sans-serif;
+}
+.my_button {
+    background-color: #0056d2;
+    border-radius: 5px;
+    border: 4px #0056d2 solid;
+    margin: 0 10px 0 0;
+    padding: 10px 30px;
+    font-size: 22px;
+}
+.my_button .my_link {
+    color: #0056d2;
+    font-size: 15px;
+    font-weight: 500;
+}
+.my_span {
+    font-size: 12px;
+    float: right;
+    font-weight: 600;
+    font-family: "Source Sans Pro",Arial,sans-serif;
+    width: fit-content;
+    text-decoration: none;
+    color: black;
+    background-color: #FFE057;
+    border-radius: 10px;
+    padding: 2px 15px;
+    vertical-align: middle;
+}
+
+.user_banner {
+    background-color: #EBF3FF;
+    margin-top: 85px;
+}
+.user_banner a {
+    color: black;
+    text-decoration: none;
+}
+.user_banner h5 {
+    color: #382B8D; 
+    font-size: 20px; 
+    font-weight: 500
+}
+.advertise h3 {
+    color: #1f1f1f;
+    font-family: "Source Sans Pro",Arial,sans-serif;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.advertise h6 {
+    color: #1f1f1f;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-family: "Source Sans Pro",Arial,sans-serif;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+.pre:hover, .next:hover {
+    background-color: #EBF3FF;
+}
+
+/* course */
+#course {
+    padding-left: 60px;
+}
+.course-title {
+    margin: 10px 10px;
+    box-sizing: border-box;
+}
+.course-title .div1 {
+    width: fit-content;
+    color: #0062E4; 
+    font-family: "Source Sans Pro",Arial,sans-serif;
+    font-size: 22px;
+}
+.course-title .div2 {
+    width: fit-content;
+    color: #666666; 
+    font-family: "Source Sans Pro",Arial,sans-serif;
+    font-size: 14px;
+    margin-bottom: 70px;
+}
+.course-title .div3 {
+    max-height: 14vh;
+    width: fit-content;
+    color: #0062E4; 
+    font-family: "Source Sans Pro",Arial,sans-serif;
+    font-size: 22px;
+    overflow: hidden;
+}
+.course-title h6 {
+    color: #666666;
+    font-size: .975rem;
+    line-height: 1.25rem;
+    font-family: Source Sans Pro,Arial,sans-serif;
+    font-weight: 700;
+}
+.course-detail {
+    box-shadow: rgba(31, 31, 31, 0.12) 0px 1px 6px, rgba(31, 31, 31, 0.12) 0px 1px 4px;
+    background-color: white;
+    padding-bottom: 10px;
+    /*max-height: 340px;*/
+}
+.course-detail img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.course-content {
+    padding-left: 20px;
+}
+.course-content > div{
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.4s all;
+    transform: translateY(10px);
+    /*transform: rotate(0deg);*/
+    /*transform: rotate(0deg);*/
+}
+.course-content > div:hover{
+    opacity: 0.7;
+    /*transform: translateX(50px);*/
+    /*transform: rotate(360deg);*/
+    transform: translateY(0px);
+}
+.carousel-control-prev:hover, .carousel-control-next:hover{
+    background-color: rgba(255, 0, 0, 0);
+}
+

@@ -1,0 +1,112 @@
+
+body{
+    background-color: #f7f7f7;
+}
+
+/* Question and answer */
+.quiz-title-detail,.quiz-question,.quiz-nav-detail{
+    background-color: #ffffff;
+}
+.question-answer p{
+    font-size: 14px;
+}
+.question-content{
+    font-weight: 700;
+}
+.question-num{
+    border-right: solid #b79898 1px;
+}
+.question-content{
+    border-bottom: solid #b79898 1px;
+    border-top: 2px solid red; 
+    border-bottom: 2px solid gray;
+    font-weight: 700;
+}
+.question-num p{
+    font-size: 12px;
+}
+
+/* Navigation question */
+.quiz-button{
+    flex-wrap: wrap;
+}
+.quiz-button a{
+    border: solid black 1px;
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    width: 40px;
+    text-align: center;
+}
+@media only screen and (max-width: 991px){
+    .quiz-nav{
+        margin-top: 20px;
+    }
+}
+
+
+
+table.quizreviewsummary {
+    width: 100%;
+}
+.table,
+.generaltable {
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+.ml-auto,
+.mx-auto {
+    margin-left: auto !important;
+}
+table {
+    display: table;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+    border-collapse: collapse;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+table.quizreviewsummary th.cell {
+    padding: 1px 0.5em 1px 1em;
+    font-weight: 700;
+    text-align: right;
+    width: 10em;
+    background: #f0f0f0;
+}
+.table th,
+.generaltable th,
+.table td,
+.generaltable td {
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+table.quizreviewsummary td.cell {
+    padding: 1px 1em 1px 0.5em;
+    text-align: left;
+    background: #fafafa;
+}
+th,
+td {
+    display: table-cell;
+}
+
+#quiz-content > div.quiz-nav.col-lg-3.col-12 > div > h6.my-4:hover{
+    text-decoration: underline;
+}
+
+.btn {
+    background-color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}

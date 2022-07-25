@@ -1,0 +1,15 @@
+.add-container {
+    margin-top: 110px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.add-form form {
+    border: 1px solid black;
+    padding: 2%;
+    border-radius: 25px;
+}
+
+.add-form form table tr td select, .add-form form table tr td input {
+    width: 100%;
+}

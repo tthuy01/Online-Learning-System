@@ -1,0 +1,14 @@
+body>footer>div a {
+    color: #373A3C;
+    font-size: 14px;
+}
+
+body>footer>div a:hover {
+    color: black;
+}
+
+body>footer ul li a i {
+    font-size: 30px;
+    padding: 10px 0;
+    color: black;
+}

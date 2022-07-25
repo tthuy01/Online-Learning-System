@@ -1,0 +1,25 @@
+.img-fil {
+    height: 35px; 
+    width: 35px;
+}
+/*fix*/
+.notice-list {
+    /*text-align: center;*/
+    margin: 0 0 0 145px;
+}
+.list-em {
+    display: block; 
+    margin: 25px 0 0 173px;
+}
+.my_button {
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    border: 1px solid #007BFF;
+}
+/*fix*/
+#right {
+    background-color: white;
+}
